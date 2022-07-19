@@ -7,6 +7,7 @@ public class duplicate {
 		System.out.println("dummy");
 		
 	}
-	
+	public void Stashcheck(){
+	}
 	
 }
