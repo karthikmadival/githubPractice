@@ -1,5 +1,0 @@
-main {
-dagar darat
-
-int
-  }
