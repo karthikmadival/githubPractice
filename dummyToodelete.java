@@ -1,5 +1,5 @@
 main {
-
+dagar darat
 
 int
   }
