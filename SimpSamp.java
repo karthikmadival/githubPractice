@@ -1,5 +1,6 @@
 package maven_pr;
 
+import java.util.Iterator;
 import java.util.Set;
 
 import org.openqa.selenium.SearchContext;
@@ -22,7 +23,9 @@ public class SimpSamp {
 		ChromeDriver fd;
 		Set<String> as = driver.getWindowHandles();
 		
-WebDriver asd = driver.switchTo().window("asd");
+//testing the git hub upload file after creating
+		//plese check the code 
+		Iterator test=new Iterator(as);
 
 	}
 }
