@@ -21,8 +21,8 @@ public class MainCLs {
 
 	public static WebDriver driver;
 
-	@Test 
-	//(retryAnalyzer = Retry.class)
+	@Test
+	// (retryAnalyzer = Retry.class)
 	public void main() throws IOException {
 
 		System.setProperty("webdriver.chrome.driver", "./chromedriver.exe");
@@ -30,15 +30,13 @@ public class MainCLs {
 		driver.manage().deleteAllCookies();
 		driver.manage().window().maximize();
 		driver.get("https://testautomationu.applitools.com/learningpaths.html");
-		//driver.manage().ime().isActivated();
-		WebElement ele=driver.findElement(By.xpath("(//div[@class='card mb-4 shadow-lg'])[4]"));
-		 File source = ele.getScreenshotAs(OutputType.FILE);
-		 File dest =new File("./element screenshot.png");
-		 FileHandler.copy(source, dest);
-		 
+		// driver.manage().ime().isActivated();
+		WebElement ele = driver.findElement(By.xpath("(//div[@class='card mb-4 shadow-lg'])[4]"));
+		File source = ele.getScreenshotAs(OutputType.FILE);
+		File dest = new File("./element screenshot.png");
+		FileHandler.copy(source, dest);
 
-		//assertEquals(true, false);
-		
+		// assertEquals(true, false);
 
 	}
 
@@ -54,7 +52,7 @@ public class MainCLs {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
-			
+
 		}
 
 	}
